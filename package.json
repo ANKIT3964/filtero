@@ -1,0 +1,44 @@
+{
+  "name": "new-filterbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "dev": "nodemon src/App",
+    "start": "node src/App",
+    "sync-database": "node src/scripts/SyncDatabase.js",
+    "sync-database-force": "node src/scripts/SyncDatabase.js --force"
+  },
+  "dependencies": {
+    "@grammyjs/i18n": "^0.5.1",
+    "@grammyjs/parse-mode": "^1.4.0",
+    "@grammyjs/transformer-throttler": "^1.1.2",
+    "dotenv": "^16.0.0",
+    "envalid": "^7.3.1",
+    "express": "^4.18.1",
+    "fuse.js": "^6.6.2",
+    "grammy": "^1.7.3",
+    "input": "^1.0.1",
+    "mariadb": "^3.0.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0",
+    "telegram": "^2.6.13"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  }
+}
