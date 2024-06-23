@@ -24,19 +24,19 @@ const createStringSession = makeValidator(
 
 export default cleanEnv(process.env, {
   // User Credentials
-  APP_ID: num(),
-  API_HASH: str(),
+  APP_ID: num(12512870),
+  API_HASH: str(01e4639ae903f5d4a7b0876e5a3ea0a1),
   STRING_SESSION: createStringSession(),
 
   // Bot Credentials
-  BOT_TOKEN: str(),
-  AUTHORIZED_USERS: splitArrayAndFilterIntegers(),
+  BOT_TOKEN: str(5638053781:AAFJYQhDLXnZCvVM0jG_MSPbuVuHZ9us01A),
+  AUTHORIZED_USERS: splitArrayAndFilterIntegers(1197918807),
 
   // MySQL Database Credentials
-  DATABASE_NAME: str(),
-  DATABASE_USER: str(),
-  DATABASE_USER_PASSWORD: str(),
-  DATABASE_HOST: str(),
+  DATABASE_NAME: str(u597183945_sigmaankit),
+  DATABASE_USER: str(u597183945_sigmaankit),
+  DATABASE_USER_PASSWORD: str(#Sigmaankit2025#),
+  DATABASE_HOST: str(srv1327.hstgr.io),
   DATABASE_PORT: num({ default: 3306 }),
   AUTHORIZED_CHAT_IDS: splitArray(),
 
