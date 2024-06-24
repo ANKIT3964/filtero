@@ -26,7 +26,7 @@ export default cleanEnv(process.env, {
   // User Credentials
   APP_ID: num(12512870),
   API_HASH: str(01e4639ae903f5d4a7b0876e5a3ea0a1),
-  STRING_SESSION: createStringSession(),
+  STRING_SESSION: createStringSession(1BVtsOMABu5QQKYwpd7A5xBepxnkADbuAUKz12FXF9EauVIcUqlKJdJ16KCMtYVTqEZgFcPTLqIbDiWaXOlDcxRfym_uq1Mp7Jw8b3aAmtCrKaGcw8ZVuNkROoV44PgBFvQTj8f1x6CO6MFMPuSzYFdOrNtmVooke9mjlncMk-nIxWjnDgSz1B6LSq5HES9FqrWqI4c8Ms8mD05LyikkH-3U2kELKCSCpywmLwsCmIKQQIDK-QUjbuoP6LHHCeU0XbJlFRmVzjuNd8Hec1btps28r6gcV14vllALSN-TeBHWi6_oB5SRRgu2PZYaP2DC50zm4L1VgYhon-U_f33SnO6_mCJ6lI6o=),
 
   // Bot Credentials
   BOT_TOKEN: str(5638053781:AAFJYQhDLXnZCvVM0jG_MSPbuVuHZ9us01A),
